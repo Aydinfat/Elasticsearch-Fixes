@@ -1,0 +1,6 @@
+# This is a fix for the "type"=>"cluster_block_exception" - Problem
+#
+PUT /_settings
+{
+  "index.blocks.read_only_allow_delete": null
+}
